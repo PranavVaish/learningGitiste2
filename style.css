@@ -1,0 +1,14 @@
+h1{
+    color: rgba(red, green, blue, alpha)
+}
+body{
+    background-color: rgb(218, 76, 116);
+    color: whitesmoke;
+}
+div{
+    border-color : white;
+    border-width: 1px
+}
+body{
+    url();
+}
