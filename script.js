@@ -1,1 +1,1 @@
-alert("Open At Your Own Risk");
+alert("Welcome🙂");

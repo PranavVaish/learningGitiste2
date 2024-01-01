@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h3>Feedback Form</h3>
+    <FORM action="/action.php">
+        <input type="text" placeholder="Name"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="text" placeholder="Profession"><br>
+        <div>
+            <h3>Choose your study year </h3>
+        <select name="Year" id="year">
+            <option value="1" id="year">1st year</option>
+            <option value="2" id="year">2nd year</option>
+            <option value="3" id="year">3rd year</option>
+            <option value="4" id="year">4th year</option>
+            <option value="5" id="year">Others</option>
+        </select>
+    </div>
+    <br>
+    <big><b>What is your department? </b></big><br>
+    <label for="101">
+        <input type="checkbox" value="Tech" name="department" id="101">Tech
+    </label><br>
+    <label for="102">
+        <input type="checkbox" value="Non Tech" name="department" id="102">Non Tech
+    </label><br><br>
+    <big><b>Domicile?</b></big><br>
+    <label for="10">
+        <input type="radio" value="Punjab" name="department" id="10">Punjab
+    </label><br>
+    <label for="11">
+        <input type="radio" value="Outside Punjab" name="department" id="11">Outside Punjab
+    </label><br><br>
+    <textarea name="Feedback" id="Feedback" placeholder="Please type your valueable Feedback" rows="3"></textarea><br><br>
+    <input type="submit" placeholder="Submit">
+    </FORM> 
+</body>
+</html>
